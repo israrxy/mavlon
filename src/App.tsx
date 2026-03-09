@@ -159,7 +159,7 @@ export default function App() {
                 <div className="glass-panel rounded-[2rem] p-2 mb-6 w-full max-w-[320px] shadow-xl transform transition-transform hover:-translate-y-2 duration-500">
                   <div className="rounded-[1.5rem] overflow-hidden bg-black aspect-[9/19]">
                     <img 
-                      src="/assets/message.png" 
+                      src="https://raw.githubusercontent.com/israrxy/mavlon/refs/heads/main/assets/message.png" 
                       alt="Mavlon Chat Interface" 
                       className="w-full h-full object-cover"
                       onError={(e) => {
