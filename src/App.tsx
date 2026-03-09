@@ -102,7 +102,7 @@ export default function App() {
             <div className="relative glass-panel rounded-[2.5rem] p-3 shadow-2xl border border-gold/20">
               <div className="rounded-[2rem] overflow-hidden bg-espresso aspect-[9/19] relative">
                 <img 
-                  src="/assetschat.png" 
+                  src="https://raw.githubusercontent.com/israrxy/mavlon/refs/heads/main/assets/chat.png" 
                   alt="Mavlon Home Screen" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -136,7 +136,7 @@ export default function App() {
                 <div className="glass-panel rounded-[2rem] p-2 mb-6 w-full max-w-[320px] shadow-xl transform transition-transform hover:-translate-y-2 duration-500">
                   <div className="rounded-[1.5rem] overflow-hidden bg-black aspect-[9/19]">
                     <img 
-                      src="assets/chat.png" 
+                      src="https://raw.githubusercontent.com/israrxy/mavlon/refs/heads/main/assets/chat.png" 
                       alt="Mavlon Chat List" 
                       className="w-full h-full object-cover"
                       onError={(e) => {
