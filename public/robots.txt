@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mavlon.pages.dev/sitemap.xml

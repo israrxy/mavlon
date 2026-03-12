@@ -32,9 +32,21 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  .itch-embed {
+    width: min(100%, 552px);
+    height: 167px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   background-color: var(--color-black);
   color: var(--color-ivory);
 }
