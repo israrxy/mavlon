@@ -88,7 +88,7 @@ export default function App() {
                 GitHub
               </a>
             </div>
-            <p className="mt-4 text-xs text-ivory-muted/60 font-mono">v0.1.1.0 • Android Only</p>
+            <p className="mt-4 text-xs text-ivory-muted/60 font-mono">v1.0.0 • Android Only</p>
           </motion.div>
 
           {/* Hero Mockup */}
