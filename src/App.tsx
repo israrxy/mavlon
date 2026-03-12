@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { Download, Github, Mail, Globe, Shield, Smartphone, Lock, Eye, Palette, Zap, RefreshCw, Phone } from 'lucide-react';
 
 export default function App() {
-  const apkLink = "https://github.com/israrxy/mavlon/releases/download/v0.1.0-beta1/Mavlon-v0.1.0-beta1.apk";
+  const apkLink = "https://github.com/israrxy/mavlon/releases/download/v1.0.0/Mavlon-1.0.0-stable.apk";
   const githubLink = "https://github.com/israrxy/mavlon";
   const portfolioLink = "https://israrxy.k.vu";
   const emailLink = "mailto:hi@israrxy.k.vu";
@@ -60,7 +60,7 @@ export default function App() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gold/20 bg-gold/5 text-gold text-xs font-medium tracking-widest uppercase mb-8">
               <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse"></span>
-              Beta
+              First Release
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-medium leading-[1.1] tracking-tight mb-6">
               Private conversations,<br />
@@ -88,7 +88,7 @@ export default function App() {
                 GitHub
               </a>
             </div>
-            <p className="mt-4 text-xs text-ivory-muted/60 font-mono">v0.1.0-beta1 • Android Only</p>
+            <p className="mt-4 text-xs text-ivory-muted/60 font-mono">v0.1.1.0 • Android Only</p>
           </motion.div>
 
           {/* Hero Mockup */}
@@ -231,7 +231,7 @@ export default function App() {
             
             <h2 className="text-3xl md:text-5xl font-display font-medium mb-6 relative z-10">Ready to try Mavlon?</h2>
             <p className="text-ivory-muted mb-10 max-w-xl mx-auto relative z-10">
-              Join the beta today. Experience a new standard for Android messaging.
+              Download the app today. Experience a new standard for Android messaging.
             </p>
             
             <div className="flex flex-col items-center gap-4 relative z-10">
@@ -243,7 +243,7 @@ export default function App() {
                 Download APK
               </a>
               <div className="flex items-center gap-3 text-sm text-ivory-muted/60 font-mono mt-2">
-                <span>v0.1.0-beta1</span>
+                <span>v1.0.0</span>
                 <span>•</span>
                 <span>Android Only</span>
               </div>
@@ -260,7 +260,7 @@ export default function App() {
               Mavlon<span className="text-gold">.</span>
             </div>
             <p className="text-sm text-ivory-muted/60 max-w-xs">
-              A beta Matrix-based messenger for Android, designed with intention.
+              A Matrix-based messenger for Android, designed with intention.
             </p>
           </div>
           
